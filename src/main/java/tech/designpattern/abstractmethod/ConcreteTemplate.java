@@ -1,4 +1,4 @@
-package tech.abstractmethod;
+package tech.designpattern.abstractmethod;
 
 public class ConcreteTemplate extends AbstractTemplate {
 
