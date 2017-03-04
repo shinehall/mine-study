@@ -1,4 +1,4 @@
-package test.abstr;
+package tech.abstractmethod;
 
 public abstract class AbstractTemplate {
   

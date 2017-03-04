@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+Built-By: shinehall
 Class-Path: lib/jxl-2.6.12.jar lib/log4j-1.2.14.jar lib/commons-pool2-
  2.0.jar lib/activemq-core-5.7.0.jar lib/geronimo-jms_1.1_spec-1.1.1.j
  ar lib/kahadb-5.7.0.jar lib/activemq-protobuf-1.1.jar lib/mqtt-client
@@ -10,10 +11,9 @@ Class-Path: lib/jxl-2.6.12.jar lib/log4j-1.2.14.jar lib/commons-pool2-
  pression-3.0.7.RELEASE.jar lib/spring-asm-3.0.7.RELEASE.jar lib/commo
  ns-net-3.1.jar lib/jasypt-1.9.0.jar lib/slf4j-log4j12-1.7.2.jar lib/s
  lf4j-api-1.7.2.jar lib/commons-lang-2.6.jar lib/commons-codec-1.4.jar
-  lib/commons-io-2.1.jar lib/commons-collections-3.2.1.jar lib/gongzuo
- quan-util-1.5.18.5.jar lib/jstl-1.1.2.jar
-Build-Jdk: 1.7.0_80
-Built-By: shine
+  lib/commons-io-2.1.jar lib/commons-collections-3.2.1.jar lib/jstl-1.
+ 1.2.jar
+Build-Jdk: 1.8.0_121
 Created-By: Maven Integration for Eclipse
 Main-Class: tech.encode.TestStringEncode
 

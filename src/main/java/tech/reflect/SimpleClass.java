@@ -1,4 +1,4 @@
-package test.reflect;
+package tech.reflect;
 
 public class SimpleClass {
   private int index;
