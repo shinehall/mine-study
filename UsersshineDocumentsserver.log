@@ -1,0 +1,6 @@
+01-18 21:23:37 INFO tech.thread.training.demo1.ThreadDemo1.main(ThreadDemo1.java:11) - start program
+01-18 21:23:37 INFO tech.thread.training.demo1.NewThread1.run(NewThread1.java:20) - thread start!
+01-18 21:23:38 INFO tech.thread.training.demo1.NewThread1.run(NewThread1.java:20) - thread start!
+01-18 21:23:39 INFO tech.thread.training.demo1.NewThread1.run(NewThread1.java:20) - thread start!
+01-18 21:23:40 INFO tech.thread.training.demo1.NewThread1.run(NewThread1.java:20) - thread start!
+01-18 21:23:41 INFO tech.thread.training.demo1.NewThread1.run(NewThread1.java:20) - thread start!
