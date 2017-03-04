@@ -8,11 +8,11 @@ public interface BinarySearchTreeADT<T> extends BinaryTreeADT<T>{
   
   public void removeAllOcurrences(T element) throws Exception;
   
-  public T removeMin();
+  public T removeMin() throws Exception;
   
-  public T removeMax();
+  public T removeMax() throws Exception;
   
-  public T findMin();
+  public T findMin() throws Exception;
   
-  public T findMax();
+  public T findMax() throws Exception;
 }

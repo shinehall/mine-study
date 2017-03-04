@@ -137,27 +137,41 @@ public class MyBinarySearchTree<T> extends MyBinaryTree<T> implements BinarySear
   }
 
   @Override
-  public T removeMin() {
-    // TODO Auto-generated method stub
-    return null;
+  public T removeMin() throws Exception {
+    T targetElement = findMin();
+    removeElement(targetElement);
+    return targetElement;
   }
 
   @Override
-  public T removeMax() {
-    // TODO Auto-generated method stub
-    return null;
+  public T removeMax() throws Exception {
+    T targetElement = findMax();
+    removeElement(targetElement);
+    return targetElement;
   }
 
   @Override
-  public T findMin() {
-    // TODO Auto-generated method stub
-    return null;
+  public T findMin() throws Exception {
+    if(root == null){
+      throw new Exception("binary search tree is null!");
+    }
+    MyBinaryTreeNode<T> rsNode = root;
+    while(root.getLeftChild() != null){
+      rsNode = root.getLeftChild();
+    }
+    return rsNode.getElement();
   }
 
   @Override
-  public T findMax() {
-    // TODO Auto-generated method stub
-    return null;
+  public T findMax() throws Exception {
+    if(root == null){
+      throw new Exception("binary search tree is null!");
+    }
+    MyBinaryTreeNode<T> rsNode = root;
+    while(root.getRightChild() != null){
+      rsNode = root.getRightChild();
+    }
+    return rsNode.getElement();
   }
 
 }

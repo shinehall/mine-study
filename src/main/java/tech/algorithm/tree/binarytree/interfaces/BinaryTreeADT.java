@@ -16,4 +16,7 @@ public interface BinaryTreeADT<T> {
   
   public MyBinaryTreeNode<T> getRootNode();
 
+  public int getHeight();
+  
+  public int getHeight(MyBinaryTreeNode<T> node);
 }

@@ -29,6 +29,21 @@ public class MyBinaryTree<T> implements BinaryTreeADT<T> {
   }
 
   @Override
+  public int getHeight() {
+    return getHeight(root);
+  }
+
+  @Override
+  public int getHeight(MyBinaryTreeNode<T> node) {
+    if(node == null){
+      return 0;
+    }
+    int leftHeight = getHeight(node.getLeftChild()) + 1;
+    int rightHeight = getHeight(node.getRightChild()) + 1;
+    return leftHeight > rightHeight ? leftHeight : rightHeight;
+  }
+
+  @Override
   public boolean isEmpty() {
     if(root == null){
       return true;
