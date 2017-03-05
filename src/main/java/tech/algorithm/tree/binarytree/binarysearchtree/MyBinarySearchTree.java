@@ -5,8 +5,6 @@ import tech.algorithm.tree.binarytree.MyBinaryTreeNode;
 import tech.algorithm.tree.binarytree.interfaces.BinarySearchTreeADT;
 
 public class MyBinarySearchTree<T> extends MyBinaryTree<T> implements BinarySearchTreeADT<T> {
-  private MyBinaryTreeNode<T> root;
-  private int count;
 
   public MyBinarySearchTree() {
     super();

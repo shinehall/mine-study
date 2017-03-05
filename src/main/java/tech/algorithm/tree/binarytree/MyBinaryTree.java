@@ -4,8 +4,8 @@ import tech.algorithm.tree.binarytree.interfaces.BinaryTreeADT;
 
 public class MyBinaryTree<T> implements BinaryTreeADT<T> {
 
-  private MyBinaryTreeNode<T> root;
-  private int count;
+  protected MyBinaryTreeNode<T> root;
+  protected int count;
   
   public MyBinaryTree() {
     super();

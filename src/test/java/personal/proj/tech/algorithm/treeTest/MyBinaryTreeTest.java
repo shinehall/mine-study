@@ -2,7 +2,6 @@ package personal.proj.tech.algorithm.treeTest;
 
 import static org.junit.Assert.*;
 
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import tech.algorithm.tree.binarytree.MyBinaryTree;
