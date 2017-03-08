@@ -17,6 +17,9 @@ public class MyAVLTree<T> extends MyBinarySearchTree<T> {
     return rs;
   }
 
+  /*
+   * 每次新增或删除元素时都做一次平衡
+   * */
   private void rebalance() throws Exception{
     //左子树过长
     if((getHeight(root.getLeftChild()) - getHeight(root.getRightChild())) > 1){
