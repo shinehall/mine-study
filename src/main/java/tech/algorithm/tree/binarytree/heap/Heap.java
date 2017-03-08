@@ -99,8 +99,23 @@ public class Heap<T> extends MyBinaryTree<T> implements HeapADT<T> {
   }
 
   @Override
-  public T removeElement(T element) {
-    // TODO Auto-generated method stub
+  public T removeMin() throws Exception {
+    if(root == null){
+      throw new Exception("heap is empty!");
+    }
+    T rs = root.getElement();
+    if(lastNode == root){
+      root = null;
+      lastNode = null;
+      count--;
+      return rs;
+    }else if(lastNode == root.getLeftChild()){
+      root = lastNode;
+      root.setLeftChild(null);
+      count--;
+      return rs;
+    }
+    
     return null;
   }
 
